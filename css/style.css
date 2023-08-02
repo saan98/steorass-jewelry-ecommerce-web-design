@@ -31,7 +31,7 @@ header{
 } 
 
 /* HERO */
-.hero-section{
+.hero-section, .bottom-section{
     background: #ECCAC2;
 }
 .hero-section h1{
@@ -46,6 +46,56 @@ header{
     font-family: Work Sans;
     font-size: 1.5rem;
     font-weight: 500;
-    letter-spacing: 0.1125rem;
+    letter-spacing: 0.12rem;
+}
 
+/* MIDDLE SECTION */
+.middle-section .container-fluid{
+    background-image: url(/images/bg-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45rem;;
+}
+.middle-section .middle-text h1, 
+.bottom-section .bottom-text h1{
+    color: #333;
+    font-family: Safira March Personal Use;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: 0.12rem;
+}
+.middle-section .middle-text p,
+.bottom-section .bottom-text p{
+    font-family: Work Sans;
+    font-size: 1rem;
+}
+.middle-section .btn{
+    background:  #ECCAC2;
+    color: #fff;
+}
+.bottom-section .btn{
+    background:  #767576;
+    color: #fff;
+}
+
+/* CATEGORY SECTION */
+.category-section .row img{
+    max-width: 250px;
+}
+.category-title{
+    color: #333;
+    font-family: Safira March Personal Use;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0.12rem;
+}
+.category-section .row .col-lg-3{
+    color: #767576;
+    text-align: center;
+    font-family: Safira March Personal Use;
+    font-size: 1.5rem;
+    line-height: 2.5rem; /* 266.667% */
+    letter-spacing: 0.09rem;
 }
