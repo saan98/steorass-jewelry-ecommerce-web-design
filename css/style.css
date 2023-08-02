@@ -18,20 +18,34 @@ header{
     background: #ECCAC2;
 }
 .top-header{
-    font-family: 'Safira March Personal Use', sans-serif;
+    font-family: 'Safira March Personal Use', 'Work Sans';
 }
 .top-header span{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* NAV-BAR */
 .nav-menu{
     font-family: 'Work Sans', sans-serif;
     font-size: 1.125rem;
 } 
 
 /* HERO */
-.card{
+.hero-section{
     background: #ECCAC2;
-    max-width: 40rem !important;
-    width:100%;
-    height: auto;
+}
+.hero-section h1{
+    color: #4B4B4B;
+    font-family: Safira March Personal Use;
+    font-size: 3.5rem;
+    letter-spacing: 0.12rem;
+    padding-bottom: 7rem;
+}
+.hero-section .hero-text .btn{
+    color: #4B4B4B;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1125rem;
+
 }
