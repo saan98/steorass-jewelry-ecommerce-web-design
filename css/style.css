@@ -20,15 +20,18 @@ header{
 .top-header{
     font-family: 'Safira March Personal Use', sans-serif;
 }
+.top-header span{
+    font-family: 'Work Sans', sans-serif;
+}
 .nav-menu{
     font-family: 'Work Sans', sans-serif;
     font-size: 1.125rem;
 } 
 
 /* HERO */
-.hero-section .card{
+.card{
     background: #ECCAC2;
-    max-width: 40rem;
+    max-width: 40rem !important;
     width:100%;
     height: auto;
 }
