@@ -248,4 +248,23 @@ input::placeholder {
     .category-section .row img {
         max-width: 18.8rem;
     }
+    .nav-menu {
+        font-size: 1.12rem;
+        letter-spacing: 0.12rem;
+        gap: 3rem;
+    }
+}
+@media(max-width:767px){
+    .top-header{
+        text-align: center;
+        
+    }
+}
+@media(max-width:575px){
+    .row{
+        text-align: center;
+    }
+    .footer-top .row button{
+        margin:2.5rem;
+    }
 }
