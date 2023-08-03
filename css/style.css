@@ -244,3 +244,8 @@ input::placeholder {
         margin-bottom: 1rem;
     }
 }
+@media(max-width:991px){
+    .category-section .row img {
+        max-width: 18.8rem;
+    }
+}
