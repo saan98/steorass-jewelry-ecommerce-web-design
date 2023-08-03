@@ -9,7 +9,6 @@
         url(/fonts/SafiraMarchPersonalUse.ttf) format('truetype'),
         url(/fonts/SafiraMarchPersonalUse.svg#SafiraMarchPersonalUse) format('svg');
     font-weight: normal;
-    font-style: normal;
     font-display: swap;
 }
 
@@ -18,16 +17,29 @@ header{
     background: #ECCAC2;
 }
 .top-header{
-    font-family: 'Safira March Personal Use', 'Work Sans';
+    color: #4B4B4B;
+    font-family: Safira March Personal Use;
+    font-size: 0.75rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.075rem;
 }
 .top-header span{
-    font-family: 'Work Sans', sans-serif;
+    color: #4B4B4B;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    letter-spacing: 0.15rem;
 }
 
 /* NAV-BAR */
 .nav-menu{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.125rem;
+    color: #333;
+    font-family: Work Sans;
+    font-size: 1.12rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.12rem;
+    gap: 8rem;
 } 
 
 /* HERO */
@@ -37,7 +49,8 @@ header{
 .hero-section h1{
     color: #4B4B4B;
     font-family: Safira March Personal Use;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
+    line-height: normal;
     letter-spacing: 0.12rem;
     padding-bottom: 7rem;
 }
@@ -54,22 +67,26 @@ header{
     background-image: url(/images/bg-image.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 45rem;;
+    height: 58rem;;
 }
-.middle-section .middle-text h1, 
-.bottom-section .bottom-text h1{
+.middle-section .middle-text h1{
     color: #333;
     font-family: Safira March Personal Use;
-    font-size: 3.5rem;
-    font-style: normal;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: normal;
     letter-spacing: 0.12rem;
 }
-.middle-section .middle-text p,
-.bottom-section .bottom-text p{
+.middle-text{
+    margin: 0px 8rem;
+}
+.middle-section .middle-text p{
+    color: #747474;
     font-family: Work Sans;
     font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    letter-spacing: 0.075rem;
 }
 .middle-section .btn{
     background:  #ECCAC2;
@@ -79,23 +96,114 @@ header{
     background:  #767576;
     color: #fff;
 }
-
+/* BOTTOM SECTION */
+.bottom-text{
+    margin: 0 2.5rem;
+}
+.bottom-section .bottom-text h1{
+    color: #545454;
+    font-family: Safira March Personal Use;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 3.75rem;
+    letter-spacing: 0.12rem;
+}
+.bottom-section .bottom-text span{
+    color: #545454;
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 3.75rem;
+    letter-spacing: 0.12rem;
+}
+.bottom-section .bottom-text p{
+    color: #767576;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    letter-spacing: 0.075rem;
+}
 /* CATEGORY SECTION */
 .category-section .row img{
-    max-width: 250px;
+    max-width: 19.8rem;
+    margin-bottom: 1rem;
 }
 .category-title{
     color: #333;
     font-family: Safira March Personal Use;
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     letter-spacing: 0.12rem;
 }
 .category-section .row .col-lg-3{
     color: #767576;
-    text-align: center;
     font-family: Safira March Personal Use;
-    font-size: 1.5rem;
-    line-height: 2.5rem; /* 266.667% */
-    letter-spacing: 0.09rem;
+    font-size: 0.9rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.08rem;
+}
+.category-section .row .col-lg-3 span{
+    color: #767576;
+    font-family: Work Sans;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+/* FOOTER SECTION */
+.footer-top{
+    background: #9C9B9B;
+    color:#FAFAFA;
+}
+.footer-bottom{
+    background-color: #767676;
+}
+.footer-top .row span,label{
+    font-family: Safira March Personal Use;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; 
+    letter-spacing: 0.06rem;
+}
+.footer-top .row li, p{
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.75rem;
+    letter-spacing: 0.08rem;
+}
+.footer-top .row input{
+    background: none;
+    color:#FAFAFA;
+    height: 3.3rem;
+    margin-top: 3rem;
+}
+input::placeholder {
+    color: #FAFAFA !important;
+  }
+.footer-top .row button{
+    background-color: #ECCAC2;
+    color: #545454;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+}
+.footer-bottom p{
+    margin: 0;
+    padding: 0;
+    color:#FAFAFA;
+}
+.position-absolute{
+    top: 15px;
+    left: 30px;
+    background: #E59686;;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
 }
