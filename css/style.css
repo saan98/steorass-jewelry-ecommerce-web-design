@@ -39,7 +39,7 @@ header{
     font-size: 1.12rem;
     line-height: 2.25rem;
     letter-spacing: 0.12rem;
-    gap: 8rem;
+    gap: 4.5rem;
 } 
 
 /* HERO */
@@ -65,9 +65,10 @@ header{
 /* MIDDLE SECTION */
 .middle-section .container-fluid{
     background-image: url(/images/bg-image.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 58rem;;
+    height: 60rem;
+
 }
 .middle-section .middle-text h1{
     color: #333;
@@ -169,7 +170,6 @@ header{
 .footer-top .row li, p{
     font-family: Work Sans;
     font-size: 1.125rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 3.75rem;
     letter-spacing: 0.08rem;
@@ -191,14 +191,17 @@ input::placeholder {
     letter-spacing: 0.12rem;
     text-transform: uppercase;
 }
+.footer-bottom{
+    padding: 2.75rem 0 1.7rem;
+}
 .footer-bottom p{
     margin: 0;
     padding: 0;
     color:#FAFAFA;
 }
 .position-absolute{
-    top: 15px;
-    left: 30px;
+    top: 25px;
+    left: 25px;
     background: #E59686;;
     color: #FFF;
     font-family: Work Sans;
@@ -206,4 +209,38 @@ input::placeholder {
     font-weight: 500;
     letter-spacing: 0.08rem;
     text-transform: uppercase;
+}
+.btn {
+    padding: 0.9rem 4rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1199px){
+    .nav-menu{
+        gap: 2.5rem;
+    }
+    .middle-text{
+        background-color: #FAFAFA;
+        opacity: .9;
+        margin: 0px;
+        padding: 1.8rem;
+        text-align: center;
+        size: 2rem;
+    }
+    .bottom-text{
+        padding: 1rem;
+        margin: 0;
+    }
+    .bottom-section .bottom-text h1{
+        font-size: 1rem;
+        padding: 0;
+    }
+    .bottom-section .bottom-text p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    .category-section .row img {
+        max-width: 14.8rem;
+        margin-bottom: 1rem;
+    }
 }
