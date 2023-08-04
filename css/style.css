@@ -158,6 +158,8 @@ header{
 }
 .footer-bottom{
     background-color: #767676;
+    color:#FAFAFA;
+
 }
 .footer-top .row span,label{
     font-family: Safira March Personal Use;
@@ -174,6 +176,7 @@ header{
     line-height: 3.75rem;
     letter-spacing: 0.08rem;
 }
+
 .footer-top .row input{
     background: none;
     color:#FAFAFA;
@@ -191,14 +194,11 @@ input::placeholder {
     letter-spacing: 0.12rem;
     text-transform: uppercase;
 }
-.footer-bottom{
-    padding: 2.75rem 0 1.7rem;
-}
 .footer-bottom p{
-    margin: 0;
+    margin:0;
     padding: 0;
-    color:#FAFAFA;
 }
+/* POPULAR & ON SALE TAGS */
 .position-absolute{
     top: 25px;
     left: 25px;
@@ -210,33 +210,45 @@ input::placeholder {
     letter-spacing: 0.08rem;
     text-transform: uppercase;
 }
+/* BUTTONS */
 .btn {
     padding: 0.9rem 4rem;
 }
 
 /* MEDIA QUERIES */
 @media (max-width:1199px){
+    .top-header{
+        text-align: center;
+    }
     .nav-menu{
         gap: 2.5rem;
     }
+    .hero-text h1{
+        font-size: 1.2rem;
+    }
     .middle-text{
         background-color: #FAFAFA;
-        opacity: .9;
+        opacity: 0.8;
         margin: 0px;
         padding: 1.8rem;
         text-align: center;
-        size: 2rem;
+        size: 4rem;
     }
     .bottom-text{
         padding: 1rem;
         margin: 0;
     }
     .bottom-section .bottom-text h1{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        line-height: 1.75rem;
         padding: 0;
     }
+    .bottom-section .bottom-text span {
+        font-size: 1.7rem;
+        line-height: 1.75rem;
+    }
     .bottom-section .bottom-text p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         line-height: 1.3rem;
     }
     .category-section .row img {
@@ -247,5 +259,42 @@ input::placeholder {
 @media(max-width:991px){
     .category-section .row img {
         max-width: 18.8rem;
+    }
+}
+@media(max-width:777px){
+    .footer-bottom {
+    align-items: center;
+    }
+    .bottom-section .bottom-text h1{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+    }
+    .bottom-section .bottom-text span {
+        font-size: 3rem;
+        line-height: 1.75rem;
+        
+    }
+    .bottom-section .bottom-text p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+}
+}
+@media(max-width:575px){
+    .row{
+        text-align: center;
+    }
+    .top-header{
+        font-size: 0.5rem;
+    }
+    .top-header span{
+        font-size: 1.2rem;
+    }
+    .hero-text h1{
+        padding-bottom: 1rem;
+    }
+    .btn{
+        width: 100%;
     }
 }
