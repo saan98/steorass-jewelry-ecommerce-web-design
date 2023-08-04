@@ -261,7 +261,7 @@ input::placeholder {
         max-width: 18.8rem;
     }
 }
-@media(max-width:777px){
+@media(max-width:778px){
     .footer-bottom {
     align-items: center;
     }
