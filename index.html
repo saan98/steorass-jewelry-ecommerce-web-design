@@ -32,20 +32,14 @@
   <nav class="navbar navbar-expand-lg m-4">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Canada (CAD $)
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item active" href="#">USA (USD $)</a>
-              </li>
-              <li><a class="dropdown-item" href="#">Nepal (NRS)</a></li>
-              <li><a class="dropdown-item" href="#">India (INR)</a></li>
-            </ul>
-          </li>
-        </ul>
+          <div class="navbar-nav me-auto mb-3">
+            <select class="form-select form-select-lg" name="Currency" id="Currency">
+              <option selected>Canada (CAD $)</option>
+              <option value="">Nepal (NRS)</option>
+              <option value="">India (INR)</option>
+              <option value="">Indonesia (Rupiah (IDR))</option>
+            </select>
+          </div>
       </div>
       <a href="index.html" class="navbar-brand mx-auto">
         <img src="/images/logo.png" alt="company logo Steorass" width="300" />
