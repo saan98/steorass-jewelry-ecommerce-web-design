@@ -165,14 +165,12 @@ header{
     font-family: Safira March Personal Use;
     font-size: 0.875rem;
     font-style: normal;
-    font-weight: 400;
     line-height: 3rem; 
     letter-spacing: 0.06rem;
 }
 .footer-top .row li, p{
     font-family: Work Sans;
     font-size: 1.125rem;
-    font-weight: 400;
     line-height: 3.75rem;
     letter-spacing: 0.08rem;
 }
@@ -216,6 +214,9 @@ input::placeholder {
 }
 
 /* MEDIA QUERIES */
+@media(max-width:1800px){
+
+}
 @media (max-width:1199px){
     .top-header{
         text-align: center;
@@ -259,6 +260,21 @@ input::placeholder {
 @media(max-width:991px){
     .category-section .row img {
         max-width: 18.8rem;
+    }
+    .bottom-section .bottom-text h1{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-bottom: 1rem;
+        }
+        .bottom-section .bottom-text span {
+            font-size: 3rem;
+            line-height: 1.75rem;
+            
+        }
+        .bottom-section .bottom-text p {
+            font-size: 1rem;
+            line-height: 1.8rem;
+            padding-bottom: 1rem;
     }
 }
 @media(max-width:778px){
