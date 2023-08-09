@@ -13,17 +13,19 @@
 }
 
 /* HEADER */
-header{
+header {
     background: #ECCAC2;
 }
-.top-header{
+
+.top-header {
     color: #4B4B4B;
     font-family: Safira March Personal Use;
     font-size: 0.75rem;
     line-height: 2.25rem;
     letter-spacing: 0.075rem;
 }
-.top-header span{
+
+.top-header span {
     color: #4B4B4B;
     font-family: Work Sans;
     font-size: 1.5rem;
@@ -33,20 +35,22 @@ header{
 }
 
 /* NAV-BAR */
-.nav-menu{
+.nav-menu {
     color: #333;
     font-family: Work Sans;
     font-size: 1.12rem;
     line-height: 2.25rem;
     letter-spacing: 0.12rem;
     gap: 4.5rem;
-} 
+}
 
 /* HERO */
-.hero-section, .bottom-section{
+.hero-section,
+.bottom-section {
     background: #ECCAC2;
 }
-.hero-section h1{
+
+.hero-section h1 {
     color: #4B4B4B;
     font-family: Safira March Personal Use;
     font-size: 1.5rem;
@@ -54,7 +58,8 @@ header{
     letter-spacing: 0.12rem;
     padding-bottom: 7rem;
 }
-.hero-section .hero-text .btn{
+
+.hero-section .hero-text .btn {
     color: #4B4B4B;
     font-family: Work Sans;
     font-size: 1.5rem;
@@ -63,14 +68,15 @@ header{
 }
 
 /* MIDDLE SECTION */
-.middle-section .container-fluid{
+.middle-section .container-fluid {
     background-image: url(/images/bg-image.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 60rem;
 
 }
-.middle-section .middle-text h1{
+
+.middle-section .middle-text h1 {
     color: #333;
     font-family: Safira March Personal Use;
     font-size: 1.5rem;
@@ -78,10 +84,12 @@ header{
     line-height: normal;
     letter-spacing: 0.12rem;
 }
-.middle-text{
+
+.middle-text {
     margin: 0px 8rem;
 }
-.middle-section .middle-text p{
+
+.middle-section .middle-text p {
     color: #747474;
     font-family: Work Sans;
     font-size: 1rem;
@@ -89,19 +97,23 @@ header{
     line-height: 2.25rem;
     letter-spacing: 0.075rem;
 }
-.middle-section .btn{
-    background:  #ECCAC2;
+
+.middle-section .btn {
+    background: #ECCAC2;
     color: #fff;
 }
-.bottom-section .btn{
-    background:  #767576;
+
+.bottom-section .btn {
+    background: #767576;
     color: #fff;
 }
+
 /* BOTTOM SECTION */
-.bottom-text{
+.bottom-text {
     margin: 0 2.5rem;
 }
-.bottom-section .bottom-text h1{
+
+.bottom-section .bottom-text h1 {
     color: #545454;
     font-family: Safira March Personal Use;
     font-size: 1.5rem;
@@ -109,7 +121,8 @@ header{
     line-height: 3.75rem;
     letter-spacing: 0.12rem;
 }
-.bottom-section .bottom-text span{
+
+.bottom-section .bottom-text span {
     color: #545454;
     font-family: Work Sans;
     font-size: 4rem;
@@ -117,7 +130,8 @@ header{
     line-height: 3.75rem;
     letter-spacing: 0.12rem;
 }
-.bottom-section .bottom-text p{
+
+.bottom-section .bottom-text p {
     color: #767576;
     font-family: Work Sans;
     font-size: 1rem;
@@ -125,65 +139,80 @@ header{
     line-height: 1.875rem;
     letter-spacing: 0.075rem;
 }
+
 /* CATEGORY SECTION */
-.category-section .row img{
+.category-section .row img {
     max-width: 19.8rem;
     margin-bottom: 1rem;
 }
-.category-title{
+
+.category-title {
     color: #333;
     font-family: Safira March Personal Use;
     font-size: 1.5rem;
     line-height: 3rem;
     letter-spacing: 0.12rem;
 }
-.category-section .row .col-lg-3{
+
+.category-section .row .col-lg-3 {
     color: #767576;
     font-family: Safira March Personal Use;
     font-size: 0.9rem;
     line-height: 2.5rem;
     letter-spacing: 0.08rem;
 }
-.category-section .row .col-lg-3 span{
+
+.category-section .row .col-lg-3 span {
     color: #767576;
     font-family: Work Sans;
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.5rem;
 }
+
 /* FOOTER SECTION */
-.footer-top{
+.footer-top {
     background: #9C9B9B;
-    color:#FAFAFA;
+    color: #FAFAFA;
 }
-.footer-bottom{
+
+.footer-bottom {
     background-color: #767676;
+    color: #FAFAFA;
+
 }
-.footer-top .row span,label{
+
+.footer-top .row span,
+label {
     font-family: Safira March Personal Use;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 3rem; 
+    line-height: 3rem;
     letter-spacing: 0.06rem;
 }
-.footer-top .row li, p{
+
+.footer-top .row li,
+p {
     font-family: Work Sans;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 3.75rem;
     letter-spacing: 0.08rem;
 }
-.footer-top .row input{
+
+.footer-top .row input {
     background: none;
-    color:#FAFAFA;
+    color: #FAFAFA;
     height: 3.3rem;
     margin-top: 3rem;
 }
+
 input::placeholder {
     color: #FAFAFA !important;
-  }
-.footer-top .row button{
+}
+
+.footer-top .row button {
     background-color: #ECCAC2;
     color: #545454;
     font-family: Work Sans;
@@ -191,18 +220,18 @@ input::placeholder {
     letter-spacing: 0.12rem;
     text-transform: uppercase;
 }
-.footer-bottom{
-    padding: 2.75rem 0 1.7rem;
-}
-.footer-bottom p{
+
+.footer-bottom p {
     margin: 0;
     padding: 0;
-    color:#FAFAFA;
 }
-.position-absolute{
+
+/* POPULAR & ON SALE TAGS */
+.position-absolute {
     top: 25px;
     left: 25px;
-    background: #E59686;;
+    background: #E59686;
+    ;
     color: #FFF;
     font-family: Work Sans;
     font-size: 0.9rem;
@@ -210,61 +239,179 @@ input::placeholder {
     letter-spacing: 0.08rem;
     text-transform: uppercase;
 }
+
+/* BUTTONS */
 .btn {
     padding: 0.9rem 4rem;
 }
 
 /* MEDIA QUERIES */
-@media (max-width:1199px){
-    .nav-menu{
+@media (max-width:1199px) {
+    .top-header {
+        text-align: center;
+    }
+
+    .nav-menu {
         gap: 2.5rem;
     }
-    .middle-text{
+
+    .hero-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .middle-text {
         background-color: #FAFAFA;
-        opacity: .9;
+        opacity: 0.8;
         margin: 0px;
         padding: 1.8rem;
         text-align: center;
-        size: 2rem;
+        size: 4rem;
     }
-    .bottom-text{
+
+    .bottom-text {
         padding: 1rem;
         margin: 0;
     }
-    .bottom-section .bottom-text h1{
-        font-size: 1rem;
+
+    .bottom-section .bottom-text h1 {
+        font-size: 0.8rem;
+        line-height: 1.75rem;
         padding: 0;
     }
+
+    .bottom-section .bottom-text span {
+        font-size: 1.7rem;
+        line-height: 1.75rem;
+    }
+
     .bottom-section .bottom-text p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         line-height: 1.3rem;
     }
+
     .category-section .row img {
         max-width: 14.8rem;
         margin-bottom: 1rem;
     }
 }
-@media(max-width:991px){
+
+@media(max-width:991px) {
     .category-section .row img {
         max-width: 18.8rem;
     }
+
     .nav-menu {
         font-size: 1.12rem;
         letter-spacing: 0.12rem;
         gap: 3rem;
     }
 }
-@media(max-width:767px){
-    .top-header{
+
+@media(max-width:767px) {
+    .top-header {
         text-align: center;
-        
+
     }
 }
-@media(max-width:575px){
-    .row{
+
+@media(max-width:575px) {
+    .row {
         text-align: center;
     }
-    .footer-top .row button{
-        margin:2.5rem;
+
+    .footer-top .row button {
+        margin: 2.5rem;
+    }
+}
+
+@media(max-width:778px) {
+    .footer-bottom {
+        align-items: center;
+    }
+
+    .bottom-section .bottom-text h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .bottom-section .bottom-text span {
+        font-size: 3rem;
+        line-height: 1.75rem;
+
+    }
+
+    .bottom-section .bottom-text p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media(max-width:575px) {
+    .row {
+        text-align: center;
+    }
+
+    .top-header {
+        font-size: 0.5rem;
+    }
+
+    .top-header span {
+        font-size: 1.2rem;
+    }
+
+    .hero-text h1 {
+        padding-bottom: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+@media(max-width:778px) {
+    .footer-bottom {
+        align-items: center;
+    }
+
+    .bottom-section .bottom-text h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .bottom-section .bottom-text span {
+        font-size: 3rem;
+        line-height: 1.75rem;
+
+    }
+
+    .bottom-section .bottom-text p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media(max-width:575px) {
+    .row {
+        text-align: center;
+    }
+
+    .top-header {
+        font-size: 0.5rem;
+    }
+
+    .top-header span {
+        font-size: 1.2rem;
+    }
+
+    .hero-text h1 {
+        padding-bottom: 1rem;
+    }
+
+    .btn {
+        width: 100%;
     }
 }
