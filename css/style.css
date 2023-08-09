@@ -187,7 +187,6 @@ label {
     font-family: Safira March Personal Use;
     font-size: 0.875rem;
     font-style: normal;
-    font-weight: 400;
     line-height: 3rem;
     letter-spacing: 0.06rem;
 }
@@ -196,7 +195,6 @@ label {
 p {
     font-family: Work Sans;
     font-size: 1.125rem;
-    font-weight: 400;
     line-height: 3.75rem;
     letter-spacing: 0.08rem;
 }
@@ -246,6 +244,8 @@ input::placeholder {
 }
 
 /* MEDIA QUERIES */
+@media(max-width:1800px) {}
+
 @media (max-width:1199px) {
     .top-header {
         text-align: center;
@@ -300,35 +300,6 @@ input::placeholder {
         max-width: 18.8rem;
     }
 
-    .nav-menu {
-        font-size: 1.12rem;
-        letter-spacing: 0.12rem;
-        gap: 3rem;
-    }
-}
-
-@media(max-width:767px) {
-    .top-header {
-        text-align: center;
-
-    }
-}
-
-@media(max-width:575px) {
-    .row {
-        text-align: center;
-    }
-
-    .footer-top .row button {
-        margin: 2.5rem;
-    }
-}
-
-@media(max-width:778px) {
-    .footer-bottom {
-        align-items: center;
-    }
-
     .bottom-section .bottom-text h1 {
         font-size: 1.5rem;
         line-height: 3rem;
@@ -345,28 +316,6 @@ input::placeholder {
         font-size: 1rem;
         line-height: 1.8rem;
         padding-bottom: 1rem;
-    }
-}
-
-@media(max-width:575px) {
-    .row {
-        text-align: center;
-    }
-
-    .top-header {
-        font-size: 0.5rem;
-    }
-
-    .top-header span {
-        font-size: 1.2rem;
-    }
-
-    .hero-text h1 {
-        padding-bottom: 1rem;
-    }
-
-    .btn {
-        width: 100%;
     }
 }
 
